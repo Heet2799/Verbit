@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VERBIT</title>
-    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -14,8 +18,8 @@
             <nav>
                 <ul class="list-inline">
                     <li id="header-item-logo">
-                        <a class="on-navigate" href="Verbit-main/images/logo.jpeg" title="Verbit Home" aria-label="Home">&nbsp;</a>
-                    </li> 
+                        <a class="on-navigate" href="images/logo.jpeg" title="Verbit Home" aria-label="Home">&nbsp;</a>
+                    </li>
                     <li id="discover-dropdown" class="button-group dropdown">
                         <button data-toggle="dropdown">Genre <span class="caret"></span>
                         </button>
@@ -88,34 +92,35 @@
             </nav>
             <div>
 
-                <form class="form-horizontal dropdown" role="search" name="search" action="/search/ autocomplete="off">
-                
-                <input id="search-query" placeholder="Search" name="q" type="text" spellcheck-"false" aria-label-"Search" value>
-                
-                <button type="submit" aria-label-"Submit search">
-                
-                <span class="fa fa-search fa-wp-neutral-1" aria-hidden="true" style="font-size: 18px;">
-                
-                ::before
-                
-                </span>
-                
-                </button>
-                
-                <input type="hidden" name="ref" value="1">
-                
-                <div class="dropdown-menu items" aria-label-"search-dropdown">
-                
-                <ul aria-label="Autocomplete" class="autocomplete- item-container"></ul>
-                
-                </div>
-                
-                <div class="triangle"></div>
-                
+                <form class="form-horizontal dropdown" role="search" name="search" action="/search/ autocomplete=" off">
+
+                    <input id="search-query" placeholder="Search" name="q" type="text" spellcheck-"false"
+                        aria-label-"Search" value>
+
+                    <button type="submit" aria-label-"Submit search">
+
+                        <span class="fa fa-search fa-wp-neutral-1" aria-hidden="true" style="font-size: 18px;">
+
+                            ::before
+
+                        </span>
+
+                    </button>
+
+                    <input type="hidden" name="ref" value="1">
+
+                    <div class="dropdown-menu items" aria-label-"search-dropdown">
+
+                        <ul aria-label="Autocomplete" class="autocomplete- item-container"></ul>
+
+                    </div>
+
+                    <div class="triangle"></div>
+
                 </form>
-                </div>
-                </div>
+            </div>
         </div>
+    </div>
     </div>
 </body>
 
