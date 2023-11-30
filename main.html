@@ -10,114 +10,60 @@
 </head>
 
 <body>
-    <div id="header-container" style="display: table;">
-        <div role="banner" id="header" style="display: table;">
-            <nav>
-                <ul class="list-inline">
-                    <li id="header-item-logo">
-                        <a class="on-navigate" href="Verbit-main/images/logo.jpeg" title="Verbit Home" aria-label="Home">&nbsp;</a>
-                    </li> 
-                    <li id="discover-dropdown" class="button-group dropdown">
-                        <button data-toggle="dropdown">Genre <span class="caret"></span>
-                        </button>
-                        <div class="triangle"></div>
-                        <div class="dropdown-menu new-curation large header-list" aria-labelledby="genre-dropdown">
-                            <div class="col-xs-9 discover-categories">
-                                <ul class="row">
-                                    ::before
-                                    <li class="title col-xs-12" aria-label="Genre Topics">Genre</li>
-                                    <li class="col-xs-4">
-                                        <a href="#Romance" class="on-navigate on-topic">Romance</a>
-                                    </li>
-                                    <li class="col-xs-4">
-                                        <a href="#Mystery" class="on-navigate on-topic">Mystery</a>
-                                    </li>
-                                    <li class="col-xs-4">
-                                        <a href="#Fantasy" class="on-navigate on-topic">Fantasy</a>
-                                    </li>
-                                    <li class="col-xs-4">
-                                        <a href="#ScienceFiction" class="on-navigate on-topic">Science Fiction</a>
-                                    </li>
-                                    <li class="col-xs-4">
-                                        <a href="#Thriller" class="on-navigate on-topic">Thriller</a>
-                                    </li>
-                                    <li class="col-xs-4">
-                                        <a href="#Horror" class="on-navigate on-topic">Horror</a>
-                                    </li>
-                                    <li class="col-xs-4">
-                                        <a href="#Adventure" class="on-navigate on-topic">Adventure</a>
-                                    </li>
-                                    <li class="col-xs-4">
-                                        <a href="#HistoricalFiction" class="on-navigate on-topic">Historical Fiction</a>
-                                    </li>
-                                    <li class="col-xs-4">
-                                        <a href="#Comedy" class="on-navigate on-topic">Comedy</a>
-                                    </li>
-                                    <li class="col-xs-4">
-                                        <a href="#Drama" class="on-navigate on-topic">Drama</a>
-                                    </li>
-                                    <li class="col-xs-4">
-                                        <a href="#Action" class="on-navigate on-topic">Action</a>
-                                    </li>
-                                    <li class="col-xs-4">
-                                        <a href="#Crime" class="on-navigate on-topic">Crime</a>
-                                    </li>
-                                    <li class="col-xs-4">
-                                        <a href="#Paranormal" class="on-navigate on-topic">Paranormal</a>
-                                    </li>
-                                    <li class="col-xs-4">
-                                        <a href="#YoungAdult" class="on-navigate on-topic">Young Adult</a>
-                                    </li>
-                                    <li class="col-xs-4">
-                                        <a href="#RealisticFiction" class="on-navigate on-topic">Realistic Fiction</a>
-                                    </li>
-                                    <li class="col-xs-4">
-                                        <a href="#Supernatural" class="on-navigate on-topic">Supernatural</a>
-                                    </li>
-                                    <li class="col-xs-4">
-                                        <a href="#Suspense" class="on-navigate on-topic">Suspense</a>
-                                    </li>
-                                    <li class="col-xs-4">
-                                        <a href="#ComingOfAge" class="on-navigate on-topic">Coming Of Age</a>
-                                    </li>
-                                    ::after
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
-            <div>
-
-                <form class="form-horizontal dropdown" role="search" name="search" action="/search/ autocomplete="off">
-                
-                <input id="search-query" placeholder="Search" name="q" type="text" spellcheck-"false" aria-label-"Search" value>
-                
-                <button type="submit" aria-label-"Submit search">
-                
-                <span class="fa fa-search fa-wp-neutral-1" aria-hidden="true" style="font-size: 18px;">
-                
-                ::before
-                
-                </span>
-                
-                </button>
-                
-                <input type="hidden" name="ref" value="1">
-                
-                <div class="dropdown-menu items" aria-label-"search-dropdown">
-                
-                <ul aria-label="Autocomplete" class="autocomplete- item-container"></ul>
-                
-                </div>
-                
-                <div class="triangle"></div>
-                
-                </form>
-                </div>
-                </div>
+   
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#">Hidden brand</a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
         </div>
-    </div>
-</body>
+      </nav>
 
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Verbit-main/images/logo.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Verbit-main/images/logo.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Verbit-main/images/logo.jpeg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>
